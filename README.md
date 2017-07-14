@@ -22,5 +22,5 @@ chmod 777 /sbin/flamegraph
 ```
 ## 效果图
 Example (click to zoom):
-[![Example](http://7xweck.com1.z0.glb.clouddn.com/mycrush.sv)]http://7xweck.com1.z0.glb.clouddn.com/mycrush.svg)
+[![Example](http://7xweck.com1.z0.glb.clouddn.com/mycrush.sv)](http://7xweck.com1.z0.glb.clouddn.com/mycrush.svg)
 
