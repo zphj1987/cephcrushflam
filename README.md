@@ -9,13 +9,17 @@ get osd crush flame
 基于这个原理，把osd tree的数据和pg数据可以做一个层级的组合，从而可以很方便的看出pg的分布情况，主机的分布情况，还可以进行搜索，在一个简单的图表内汇聚了大量的信息
 
 ##使用方法
+```bash
+wget -O /sbin/stackcollapse-crush https://raw.githubusercontent.com/zphj1987/cephcrushflam/master/stackcollapse-crush.py
+chmod 777 /sbin/stackcollapse-crush
 
-wget -o /sbin/stackcollapse-crush 
-wget -o /sbin/flamegraph
+wget -O /sbin/flamegraph https://raw.githubusercontent.com/zphj1987/cephcrushflam/master/flamegraph.pl
+
+chmod 777 /sbin/flamegraph
 
  /sbin/stackcollapse-crush > /tmp/mydata
-/sbin/flamegraph /tmp/mydata > /tmp/mycrush.svg
-
+/sbin/flamegraph  --title  "Ceph crush flame graph" --width "1800" --countname "num" /tmp/mydata > /tmp/mycrush.svg
+```
 ##效果图
 
 
