@@ -21,6 +21,7 @@ chmod 777 /sbin/flamegraph
 /sbin/flamegraph  --title  "Ceph crush flame graph" --width "1800" --countname "num" /tmp/mydata > /tmp/mycrush.svg
 ```
 ##效果图
+Example (click to zoom):
 
 ![](http://7xweck.com1.z0.glb.clouddn.com/mycrush.svg)
 
