@@ -22,6 +22,5 @@ chmod 777 /sbin/flamegraph
 ```
 ##效果图
 
+![](https://raw.githubusercontent.com/zphj1987/cephcrushflam/master/mycrush.svg)
 
-
-##
